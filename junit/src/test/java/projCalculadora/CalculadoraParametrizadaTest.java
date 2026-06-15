@@ -25,7 +25,7 @@ public class CalculadoraParametrizadaTest {
     public static Collection<Object[]> massaDeTestes(){
         return Arrays.asList(new Object[][]{
             {1, 1, 2},
-            {2, 3, 99},
+            {2, 3, 5},
             {-1, 5, 4},
             {0, 0, 0,},
             {10, 20, 30}
