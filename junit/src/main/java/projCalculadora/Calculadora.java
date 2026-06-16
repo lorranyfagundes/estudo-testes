@@ -21,4 +21,11 @@ public class Calculadora {
         }
         return a / b;
     }
+    
+    public boolean ehPositivo(int numero) {
+        if (numero > 0){
+            return false;
+        }
+        return false;
+    }
 }

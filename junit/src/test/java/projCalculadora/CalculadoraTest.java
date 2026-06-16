@@ -2,6 +2,8 @@ package projCalculadora;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import java.beans.Transient;
+
 public class CalculadoraTest{
     @Test
     public void deveriaSomarDoisNumerosPositivos(){
@@ -31,5 +33,27 @@ public class CalculadoraTest{
     public void deveriaLancarExcecaoAoDividirPorZero(){
         Calculadora calc = new Calculadora();
         calc.divisao(10, 0);
+    }
+
+    // testes de ehPositivo()
+    @Test
+    public void deveriaSerPositivoComNMaiorQueZero(){
+        Calculadora calc = new Calculadora();
+        //assertEquals(true, calc.ehPositivo(5));
+        assertTrue(calc.ehPositivo(5));
+    }
+   
+    /* 
+    @Test
+    public void naoDeveSerPositivoComNMenorQueZero(){
+        Calculadora calc = new Calculadora();
+        assertEquals(false, calc.ehPositivo(-5));
+    }
+    */
+
+    @Test
+    public void naoDeveSerPositivoComZero(){
+        Calculadora calc = new Calculadora();
+        assertEquals(false, calc.ehPositivo(0));
     }
 }

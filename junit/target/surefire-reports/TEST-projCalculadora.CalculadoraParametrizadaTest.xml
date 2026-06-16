@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="projCalculadora.CalculadoraParametrizadaTest" time="0.043" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="projCalculadora.CalculadoraParametrizadaTest" time="0.015" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/25.0.2-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/estudo-testes/junit/target/surefire/surefirebooter-20260615144516765_3.jar /workspaces/estudo-testes/junit/target/surefire 2026-06-15T14-45-16_530-jvmRun1 surefire-20260615144516765_1tmp surefire_0-20260615144516765_2tmp"/>
+    <property name="sun.java.command" value="/workspaces/estudo-testes/junit/target/surefire/surefirebooter-20260616141326157_3.jar /workspaces/estudo-testes/junit/target/surefire 2026-06-16T14-13-25_941-jvmRun1 surefire-20260616141326157_1tmp surefire_0-20260616141326157_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/estudo-testes/junit/target/test-classes:/workspaces/estudo-testes/junit/target/classes:/home/codespace/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/estudo-testes/junit/target/surefire/surefirebooter-20260615144516765_3.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/estudo-testes/junit/target/surefire/surefirebooter-20260616141326157_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -54,15 +54,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="deveriaSomarDoisNumerosCorretamente[0: Testando se 1 + 1 = 2]" classname="projCalculadora.CalculadoraParametrizadaTest" time="0.013">
+  <testcase name="deveriaSomarDoisNumerosCorretamente[0: Testando se 1 + 1 = 2]" classname="projCalculadora.CalculadoraParametrizadaTest" time="0.009">
     <system-out><![CDATA[Rodando teste: 1 + 1 = 2
 ]]></system-out>
   </testcase>
-  <testcase name="deveriaSomarDoisNumerosCorretamente[1: Testando se 2 + 3 = 5]" classname="projCalculadora.CalculadoraParametrizadaTest" time="0.003">
+  <testcase name="deveriaSomarDoisNumerosCorretamente[1: Testando se 2 + 3 = 5]" classname="projCalculadora.CalculadoraParametrizadaTest" time="0.001">
     <system-out><![CDATA[Rodando teste: 2 + 3 = 5
 ]]></system-out>
   </testcase>
-  <testcase name="deveriaSomarDoisNumerosCorretamente[2: Testando se -1 + 5 = 4]" classname="projCalculadora.CalculadoraParametrizadaTest" time="0.005">
+  <testcase name="deveriaSomarDoisNumerosCorretamente[2: Testando se -1 + 5 = 4]" classname="projCalculadora.CalculadoraParametrizadaTest" time="0.0">
     <system-out><![CDATA[Rodando teste: -1 + 5 = 4
 ]]></system-out>
   </testcase>
@@ -70,7 +70,7 @@
     <system-out><![CDATA[Rodando teste: 0 + 0 = 0
 ]]></system-out>
   </testcase>
-  <testcase name="deveriaSomarDoisNumerosCorretamente[4: Testando se 10 + 20 = 30]" classname="projCalculadora.CalculadoraParametrizadaTest" time="0.0">
+  <testcase name="deveriaSomarDoisNumerosCorretamente[4: Testando se 10 + 20 = 30]" classname="projCalculadora.CalculadoraParametrizadaTest" time="0.003">
     <system-out><![CDATA[Rodando teste: 10 + 20 = 30
 ]]></system-out>
   </testcase>
