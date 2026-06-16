@@ -24,7 +24,7 @@ public class Calculadora {
     
     public boolean ehPositivo(int numero) {
         if (numero > 0){
-            return false;
+            return true;
         }
         return false;
     }

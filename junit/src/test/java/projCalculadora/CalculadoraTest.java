@@ -42,14 +42,12 @@ public class CalculadoraTest{
         //assertEquals(true, calc.ehPositivo(5));
         assertTrue(calc.ehPositivo(5));
     }
-   
-    /* 
+    
     @Test
     public void naoDeveSerPositivoComNMenorQueZero(){
         Calculadora calc = new Calculadora();
         assertEquals(false, calc.ehPositivo(-5));
     }
-    */
 
     @Test
     public void naoDeveSerPositivoComZero(){
