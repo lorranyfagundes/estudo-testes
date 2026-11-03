@@ -1,0 +1,42 @@
+{
+    "tests_by_mangled_function_name": {
+        "triangulo.x_classificar": [
+            "test_triangulo.py::test_equilatero",
+            "test_triangulo.py::test_escaleno",
+            "test_triangulo.py::test_nao_forma_triangulo",
+            "test_triangulo.py::test_lado_zero_ou_negativo",
+            "test_triangulo.py::test_lado_pequeno_mas_valido",
+            "test_triangulo.py::test_isosceles",
+            "test_triangulo.py::test_soma_igual_ao_terceiro_lado"
+        ]
+    },
+    "duration_by_test": {
+        "test_triangulo.py::test_equilatero": 0.00016522900000381924,
+        "test_triangulo.py::test_isosceles": 0.00014619299986406986,
+        "test_triangulo.py::test_escaleno": 0.0002106729998558876,
+        "test_triangulo.py::test_lado_zero_ou_negativo": 0.0001298330000736314,
+        "test_triangulo.py::test_nao_forma_triangulo": 0.00012821999985135335,
+        "test_triangulo.py::test_soma_igual_ao_terceiro_lado": 0.00014435999992201687,
+        "test_triangulo.py::test_lado_pequeno_mas_valido": 0.00011054600008719717
+    },
+    "stats_time": 0.28239883199999993,
+    "function_hashes": {
+        "triangulo.x_classificar": "a0fda74c1460"
+    },
+    "function_dependencies": {},
+    "config_fingerprint": {
+        "test_execution": "2e38e77b22c3",
+        "test_selection": "2e38e77b22c3",
+        "timeout": "d3052321fdc3",
+        "type_check": "2e38e77b22c3"
+    },
+    "watched_file_hashes": {
+        "pyproject.toml": "ead5a82bae2b",
+        "__pycache__/test_triangulo.cpython-314-pytest-9.1.1.pyc": "361a401663ff",
+        "__pycache__/triangulo.cpython-314.pyc": "8c2cd94ee12e",
+        "mutants/pyproject.toml": "ead5a82bae2b",
+        "mutants/triangulo.py.meta": "be709580754b",
+        "mutants/triangulo.py.spans": "3e1f37c81205"
+    },
+    "git_commit": "354a0a7bcf4a35d9eb0cd9866659785196f5e2f7"
+}
