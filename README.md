@@ -6,3 +6,7 @@ rodar os testes: npx cypress run
 
 ## JUnit
 rodar os testes: mvn test
+
+## Mutmut (Python)
+- `triangulo/`
+- `mutmut_loja/` 
